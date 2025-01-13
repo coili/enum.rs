@@ -1,0 +1,12 @@
+[package]
+name = "basic-enum-lib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+whoami = "1.5.2"
+winapi = { version = "0.3", features = ["winnt"] }
+wmi = "0.14.3"
