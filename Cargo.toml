@@ -7,6 +7,8 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
+colorized = "1.0.0"
+network-interface = "2.0.0"
 whoami = "1.5.2"
 winapi = { version = "0.3", features = ["winnt"] }
 wmi = "0.14.3"
